@@ -1,0 +1,41 @@
+*{
+  font-family: 'Atma';
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #2A0800;
+background-color:#EFECCA;
+scroll-behavior: smooth;
+font-size:1.4rem;
+}
+
+header{
+   background-color: #C57B57;
+  padding: 10 px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+position:sticky;
+
+
+}
+header * {
+background-color:#C57B57
+}
+
+.title{
+  font-size: 3rem;
+color:#251605;
+text-shadow: 3px 3px 5px #EBB26F;
+}
+a{
+color:#251605;
+text-shadow: 3px 3px 3px #EBB26F;
+font-size:1.5rem;
+}
+h2{
+font-size:40px;  
+}
+.credits{
+font-size:1rem;
+}
