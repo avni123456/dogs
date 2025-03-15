@@ -1,41 +1,65 @@
 *{
-  font-family: 'Atma';
-  margin: 0;
-  padding: 0;
-  border: 0;
-  color: #2A0800;
-background-color:#EFECCA;
-scroll-behavior: smooth;
-font-size:1.4rem;
+    font-family: 'Atma';
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #2A0800;
+  background-color:#EFECCA;
+  scroll-behavior: smooth;
+  font-size:1.4rem;
+}
+header {
+  background: linear-gradient(-45deg, #F7DBA7, #9CAFB7, #C57B57, #F1AB86);
+  background-size:400%,400%;
+	animation: gradient 10s ease infinite;
+    padding: 10 px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  position:sticky;
+  
+  
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
-header{
-   background-color: #C57B57;
-  padding: 10 px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-position:sticky;
 
+.title{
+    font-size: 3rem;
+  color:#251605;
+  text-shadow: 3px 3px 5px #EBB26F;
+}
+a{
+  color:#251605;
+  text-shadow: 3px 3px 3px #EBB26F;
+  font-size:1.5rem;
 
 }
 header * {
-background-color:#C57B57
-}
-
-.title{
-  font-size: 3rem;
-color:#251605;
-text-shadow: 3px 3px 5px #EBB26F;
-}
-a{
-color:#251605;
-text-shadow: 3px 3px 3px #EBB26F;
-font-size:1.5rem;
+    background-color: rgb(0,0,0,0%);
 }
 h2{
 font-size:40px;  
 }
 .credits{
-font-size:1rem;
+  font-size:1rem;
+}
+
+img:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+hr {
+  border:2px solid #9CAFB7;
+  margin:5px;
+  border-radius:100px;
 }
